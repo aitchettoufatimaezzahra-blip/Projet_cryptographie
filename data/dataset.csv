@@ -1,0 +1,586 @@
+file_path,label,vulnerability_type,severity,description,source
+secure/mceliece\aes256ctr.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/aes256ctr_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\aes256ctr.c
+vulnerable/mceliece/aes256ctr_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\aes256ctr.c
+vulnerable/mceliece/aes256ctr_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\aes256ctr.c
+vulnerable/mceliece/aes256ctr_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\aes256ctr.c
+secure/mceliece\aes256ctr.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/aes256ctr_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\aes256ctr.h
+vulnerable/mceliece/aes256ctr_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\aes256ctr.h
+vulnerable/mceliece/aes256ctr_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\aes256ctr.h
+vulnerable/mceliece/aes256ctr_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\aes256ctr.h
+secure/mceliece\api.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/api_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\api.h
+vulnerable/mceliece/api_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\api.h
+vulnerable/mceliece/api_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\api.h
+vulnerable/mceliece/api_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\api.h
+secure/mceliece\benes.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/benes_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\benes.c
+vulnerable/mceliece/benes_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\benes.c
+vulnerable/mceliece/benes_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\benes.c
+vulnerable/mceliece/benes_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\benes.c
+secure/mceliece\benes.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/benes_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\benes.h
+vulnerable/mceliece/benes_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\benes.h
+vulnerable/mceliece/benes_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\benes.h
+vulnerable/mceliece/benes_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\benes.h
+secure/mceliece\bm.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/bm_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\bm.c
+vulnerable/mceliece/bm_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\bm.c
+vulnerable/mceliece/bm_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\bm.c
+vulnerable/mceliece/bm_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\bm.c
+secure/mceliece\bm.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/bm_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\bm.h
+vulnerable/mceliece/bm_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\bm.h
+vulnerable/mceliece/bm_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\bm.h
+vulnerable/mceliece/bm_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\bm.h
+secure/mceliece\controlbits.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/controlbits_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\controlbits.c
+vulnerable/mceliece/controlbits_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\controlbits.c
+vulnerable/mceliece/controlbits_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\controlbits.c
+vulnerable/mceliece/controlbits_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\controlbits.c
+secure/mceliece\controlbits.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/controlbits_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\controlbits.h
+vulnerable/mceliece/controlbits_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\controlbits.h
+vulnerable/mceliece/controlbits_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\controlbits.h
+vulnerable/mceliece/controlbits_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\controlbits.h
+secure/mceliece\crypto_hash.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_hash_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_hash.h
+vulnerable/mceliece/crypto_hash_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_hash.h
+vulnerable/mceliece/crypto_hash_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_hash.h
+vulnerable/mceliece/crypto_hash_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_hash.h
+secure/mceliece\crypto_int16.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_int16_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_int16.c
+vulnerable/mceliece/crypto_int16_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_int16.c
+vulnerable/mceliece/crypto_int16_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_int16.c
+vulnerable/mceliece/crypto_int16_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_int16.c
+secure/mceliece\crypto_int16.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_int16_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_int16.h
+vulnerable/mceliece/crypto_int16_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_int16.h
+vulnerable/mceliece/crypto_int16_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_int16.h
+vulnerable/mceliece/crypto_int16_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_int16.h
+secure/mceliece\crypto_int32.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_int32_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_int32.c
+vulnerable/mceliece/crypto_int32_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_int32.c
+vulnerable/mceliece/crypto_int32_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_int32.c
+vulnerable/mceliece/crypto_int32_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_int32.c
+secure/mceliece\crypto_int32.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_int32_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_int32.h
+vulnerable/mceliece/crypto_int32_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_int32.h
+vulnerable/mceliece/crypto_int32_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_int32.h
+vulnerable/mceliece/crypto_int32_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_int32.h
+secure/mceliece\crypto_kem.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_kem_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_kem.h
+vulnerable/mceliece/crypto_kem_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_kem.h
+vulnerable/mceliece/crypto_kem_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_kem.h
+vulnerable/mceliece/crypto_kem_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_kem.h
+secure/mceliece\crypto_uint16.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint16_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint16.c
+vulnerable/mceliece/crypto_uint16_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint16.c
+vulnerable/mceliece/crypto_uint16_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint16.c
+vulnerable/mceliece/crypto_uint16_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint16.c
+secure/mceliece\crypto_uint16.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint16_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint16.h
+vulnerable/mceliece/crypto_uint16_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint16.h
+vulnerable/mceliece/crypto_uint16_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint16.h
+vulnerable/mceliece/crypto_uint16_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint16.h
+secure/mceliece\crypto_uint32.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint32_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint32.c
+vulnerable/mceliece/crypto_uint32_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint32.c
+vulnerable/mceliece/crypto_uint32_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint32.c
+vulnerable/mceliece/crypto_uint32_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint32.c
+secure/mceliece\crypto_uint32.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint32_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint32.h
+vulnerable/mceliece/crypto_uint32_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint32.h
+vulnerable/mceliece/crypto_uint32_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint32.h
+vulnerable/mceliece/crypto_uint32_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint32.h
+secure/mceliece\crypto_uint64.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint64_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint64.c
+vulnerable/mceliece/crypto_uint64_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint64.c
+vulnerable/mceliece/crypto_uint64_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint64.c
+vulnerable/mceliece/crypto_uint64_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint64.c
+secure/mceliece\crypto_uint64.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/crypto_uint64_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\crypto_uint64.h
+vulnerable/mceliece/crypto_uint64_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\crypto_uint64.h
+vulnerable/mceliece/crypto_uint64_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\crypto_uint64.h
+vulnerable/mceliece/crypto_uint64_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\crypto_uint64.h
+secure/mceliece\decrypt.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/decrypt_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\decrypt.c
+vulnerable/mceliece/decrypt_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\decrypt.c
+vulnerable/mceliece/decrypt_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\decrypt.c
+vulnerable/mceliece/decrypt_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\decrypt.c
+secure/mceliece\decrypt.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/decrypt_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\decrypt.h
+vulnerable/mceliece/decrypt_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\decrypt.h
+vulnerable/mceliece/decrypt_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\decrypt.h
+vulnerable/mceliece/decrypt_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\decrypt.h
+secure/mceliece\encrypt.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/encrypt_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\encrypt.c
+vulnerable/mceliece/encrypt_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\encrypt.c
+vulnerable/mceliece/encrypt_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\encrypt.c
+vulnerable/mceliece/encrypt_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\encrypt.c
+secure/mceliece\encrypt.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/encrypt_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\encrypt.h
+vulnerable/mceliece/encrypt_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\encrypt.h
+vulnerable/mceliece/encrypt_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\encrypt.h
+vulnerable/mceliece/encrypt_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\encrypt.h
+secure/mceliece\gf.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/gf_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\gf.c
+vulnerable/mceliece/gf_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\gf.c
+vulnerable/mceliece/gf_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\gf.c
+vulnerable/mceliece/gf_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\gf.c
+secure/mceliece\gf.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/gf_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\gf.h
+vulnerable/mceliece/gf_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\gf.h
+vulnerable/mceliece/gf_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\gf.h
+vulnerable/mceliece/gf_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\gf.h
+secure/mceliece\int32_sort.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/int32_sort_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\int32_sort.h
+vulnerable/mceliece/int32_sort_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\int32_sort.h
+vulnerable/mceliece/int32_sort_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\int32_sort.h
+vulnerable/mceliece/int32_sort_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\int32_sort.h
+secure/mceliece\namespace.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/namespace_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\namespace.h
+vulnerable/mceliece/namespace_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\namespace.h
+vulnerable/mceliece/namespace_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\namespace.h
+vulnerable/mceliece/namespace_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\namespace.h
+secure/mceliece\operations.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/operations_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\operations.c
+vulnerable/mceliece/operations_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\operations.c
+vulnerable/mceliece/operations_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\operations.c
+vulnerable/mceliece/operations_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\operations.c
+secure/mceliece\operations.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/operations_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\operations.h
+vulnerable/mceliece/operations_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\operations.h
+vulnerable/mceliece/operations_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\operations.h
+vulnerable/mceliece/operations_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\operations.h
+secure/mceliece\params.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/params_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\params.h
+vulnerable/mceliece/params_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\params.h
+vulnerable/mceliece/params_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\params.h
+vulnerable/mceliece/params_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\params.h
+secure/mceliece\pk_gen.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/pk_gen_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\pk_gen.c
+vulnerable/mceliece/pk_gen_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\pk_gen.c
+vulnerable/mceliece/pk_gen_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\pk_gen.c
+vulnerable/mceliece/pk_gen_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\pk_gen.c
+secure/mceliece\pk_gen.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/pk_gen_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\pk_gen.h
+vulnerable/mceliece/pk_gen_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\pk_gen.h
+vulnerable/mceliece/pk_gen_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\pk_gen.h
+vulnerable/mceliece/pk_gen_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\pk_gen.h
+secure/mceliece\root.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/root_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\root.c
+vulnerable/mceliece/root_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\root.c
+vulnerable/mceliece/root_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\root.c
+vulnerable/mceliece/root_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\root.c
+secure/mceliece\root.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/root_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\root.h
+vulnerable/mceliece/root_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\root.h
+vulnerable/mceliece/root_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\root.h
+vulnerable/mceliece/root_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\root.h
+secure/mceliece\sk_gen.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/sk_gen_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\sk_gen.c
+vulnerable/mceliece/sk_gen_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\sk_gen.c
+vulnerable/mceliece/sk_gen_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\sk_gen.c
+vulnerable/mceliece/sk_gen_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\sk_gen.c
+secure/mceliece\sk_gen.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/sk_gen_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\sk_gen.h
+vulnerable/mceliece/sk_gen_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\sk_gen.h
+vulnerable/mceliece/sk_gen_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\sk_gen.h
+vulnerable/mceliece/sk_gen_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\sk_gen.h
+secure/mceliece\synd.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/synd_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\synd.c
+vulnerable/mceliece/synd_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\synd.c
+vulnerable/mceliece/synd_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\synd.c
+vulnerable/mceliece/synd_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\synd.c
+secure/mceliece\synd.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/synd_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\synd.h
+vulnerable/mceliece/synd_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\synd.h
+vulnerable/mceliece/synd_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\synd.h
+vulnerable/mceliece/synd_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\synd.h
+secure/mceliece\transpose.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/transpose_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\transpose.c
+vulnerable/mceliece/transpose_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\transpose.c
+vulnerable/mceliece/transpose_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\transpose.c
+vulnerable/mceliece/transpose_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\transpose.c
+secure/mceliece\transpose.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/transpose_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\transpose.h
+vulnerable/mceliece/transpose_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\transpose.h
+vulnerable/mceliece/transpose_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\transpose.h
+vulnerable/mceliece/transpose_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\transpose.h
+secure/mceliece\uint64_sort.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/uint64_sort_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\uint64_sort.h
+vulnerable/mceliece/uint64_sort_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\uint64_sort.h
+vulnerable/mceliece/uint64_sort_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\uint64_sort.h
+vulnerable/mceliece/uint64_sort_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\uint64_sort.h
+secure/mceliece\util.c,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/util_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\util.c
+vulnerable/mceliece/util_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\util.c
+vulnerable/mceliece/util_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\util.c
+vulnerable/mceliece/util_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\util.c
+secure/mceliece\util.h,0,none,none,Implementation de reference PQClean,PQClean/mceliece
+vulnerable/mceliece/util_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece\util.h
+vulnerable/mceliece/util_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece\util.h
+vulnerable/mceliece/util_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece\util.h
+vulnerable/mceliece/util_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece\util.h
+secure/hqc\api.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/api_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\api.h
+vulnerable/hqc/api_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\api.h
+vulnerable/hqc/api_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\api.h
+vulnerable/hqc/api_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\api.h
+secure/hqc\code.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/code_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\code.c
+vulnerable/hqc/code_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\code.c
+vulnerable/hqc/code_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\code.c
+vulnerable/hqc/code_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\code.c
+secure/hqc\code.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/code_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\code.h
+vulnerable/hqc/code_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\code.h
+vulnerable/hqc/code_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\code.h
+vulnerable/hqc/code_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\code.h
+secure/hqc\domains.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/domains_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\domains.h
+vulnerable/hqc/domains_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\domains.h
+vulnerable/hqc/domains_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\domains.h
+vulnerable/hqc/domains_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\domains.h
+secure/hqc\fft.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/fft_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\fft.c
+vulnerable/hqc/fft_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\fft.c
+vulnerable/hqc/fft_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\fft.c
+vulnerable/hqc/fft_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\fft.c
+secure/hqc\fft.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/fft_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\fft.h
+vulnerable/hqc/fft_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\fft.h
+vulnerable/hqc/fft_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\fft.h
+vulnerable/hqc/fft_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\fft.h
+secure/hqc\gf.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/gf_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\gf.c
+vulnerable/hqc/gf_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\gf.c
+vulnerable/hqc/gf_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\gf.c
+vulnerable/hqc/gf_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\gf.c
+secure/hqc\gf.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/gf_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\gf.h
+vulnerable/hqc/gf_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\gf.h
+vulnerable/hqc/gf_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\gf.h
+vulnerable/hqc/gf_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\gf.h
+secure/hqc\gf2x.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/gf2x_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\gf2x.c
+vulnerable/hqc/gf2x_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\gf2x.c
+vulnerable/hqc/gf2x_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\gf2x.c
+vulnerable/hqc/gf2x_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\gf2x.c
+secure/hqc\gf2x.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/gf2x_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\gf2x.h
+vulnerable/hqc/gf2x_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\gf2x.h
+vulnerable/hqc/gf2x_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\gf2x.h
+vulnerable/hqc/gf2x_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\gf2x.h
+secure/hqc\hqc.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/hqc_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\hqc.c
+vulnerable/hqc/hqc_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\hqc.c
+vulnerable/hqc/hqc_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\hqc.c
+vulnerable/hqc/hqc_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\hqc.c
+secure/hqc\hqc.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/hqc_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\hqc.h
+vulnerable/hqc/hqc_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\hqc.h
+vulnerable/hqc/hqc_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\hqc.h
+vulnerable/hqc/hqc_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\hqc.h
+secure/hqc\kem.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/kem_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\kem.c
+vulnerable/hqc/kem_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\kem.c
+vulnerable/hqc/kem_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\kem.c
+vulnerable/hqc/kem_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\kem.c
+secure/hqc\parameters.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/parameters_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\parameters.h
+vulnerable/hqc/parameters_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\parameters.h
+vulnerable/hqc/parameters_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\parameters.h
+vulnerable/hqc/parameters_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\parameters.h
+secure/hqc\parsing.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/parsing_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\parsing.c
+vulnerable/hqc/parsing_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\parsing.c
+vulnerable/hqc/parsing_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\parsing.c
+vulnerable/hqc/parsing_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\parsing.c
+secure/hqc\parsing.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/parsing_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\parsing.h
+vulnerable/hqc/parsing_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\parsing.h
+vulnerable/hqc/parsing_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\parsing.h
+vulnerable/hqc/parsing_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\parsing.h
+secure/hqc\reed_muller.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/reed_muller_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\reed_muller.c
+vulnerable/hqc/reed_muller_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\reed_muller.c
+vulnerable/hqc/reed_muller_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\reed_muller.c
+vulnerable/hqc/reed_muller_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\reed_muller.c
+secure/hqc\reed_muller.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/reed_muller_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\reed_muller.h
+vulnerable/hqc/reed_muller_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\reed_muller.h
+vulnerable/hqc/reed_muller_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\reed_muller.h
+vulnerable/hqc/reed_muller_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\reed_muller.h
+secure/hqc\reed_solomon.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/reed_solomon_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\reed_solomon.c
+vulnerable/hqc/reed_solomon_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\reed_solomon.c
+vulnerable/hqc/reed_solomon_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\reed_solomon.c
+vulnerable/hqc/reed_solomon_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\reed_solomon.c
+secure/hqc\reed_solomon.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/reed_solomon_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\reed_solomon.h
+vulnerable/hqc/reed_solomon_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\reed_solomon.h
+vulnerable/hqc/reed_solomon_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\reed_solomon.h
+vulnerable/hqc/reed_solomon_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\reed_solomon.h
+secure/hqc\shake_ds.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/shake_ds_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\shake_ds.c
+vulnerable/hqc/shake_ds_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\shake_ds.c
+vulnerable/hqc/shake_ds_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\shake_ds.c
+vulnerable/hqc/shake_ds_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\shake_ds.c
+secure/hqc\shake_ds.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/shake_ds_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\shake_ds.h
+vulnerable/hqc/shake_ds_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\shake_ds.h
+vulnerable/hqc/shake_ds_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\shake_ds.h
+vulnerable/hqc/shake_ds_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\shake_ds.h
+secure/hqc\shake_prng.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/shake_prng_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\shake_prng.c
+vulnerable/hqc/shake_prng_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\shake_prng.c
+vulnerable/hqc/shake_prng_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\shake_prng.c
+vulnerable/hqc/shake_prng_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\shake_prng.c
+secure/hqc\shake_prng.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/shake_prng_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\shake_prng.h
+vulnerable/hqc/shake_prng_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\shake_prng.h
+vulnerable/hqc/shake_prng_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\shake_prng.h
+vulnerable/hqc/shake_prng_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\shake_prng.h
+secure/hqc\vector.c,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/vector_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\vector.c
+vulnerable/hqc/vector_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\vector.c
+vulnerable/hqc/vector_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\vector.c
+vulnerable/hqc/vector_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\vector.c
+secure/hqc\vector.h,0,none,none,Implementation de reference PQClean,PQClean/hqc
+vulnerable/hqc/vector_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/hqc\vector.h
+vulnerable/hqc/vector_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/hqc\vector.h
+vulnerable/hqc/vector_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/hqc\vector.h
+vulnerable/hqc/vector_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/hqc\vector.h
+secure/python\mceliece_reference.py,0,none,none,Implementation Python securisee,custom_reference
+vulnerable/python/mceliece_reference_weak_prng.py,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/python\mceliece_reference.py
+vulnerable/python/mceliece_reference_weak_params.py,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/python\mceliece_reference.py
+vulnerable/python/mceliece_reference_timing_leak.py,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/python\mceliece_reference.py
+vulnerable/python/mceliece_reference_memory_leak.py,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/python\mceliece_reference.py
+secure/mceliece6688128/aes256ctr.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/aes256ctr.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/api.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/benes.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/benes.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/bm.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/bm.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/controlbits.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/controlbits.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_hash.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_int16.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_int16.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_int32.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_int32.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_kem.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint16.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint16.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint32.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint32.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint64.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/crypto_uint64.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/decrypt.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/decrypt.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/encrypt.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/encrypt.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/gf.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/gf.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/int32_sort.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/namespace.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/operations.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/operations.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/params.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/pk_gen.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/pk_gen.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/root.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/root.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/sk_gen.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/sk_gen.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/synd.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/synd.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/transpose.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/transpose.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/uint64_sort.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/util.c,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+secure/mceliece6688128/util.h,0,none,none,Implementation de reference Classic McEliece 6688128,PQClean/mceliece6688128
+vulnerable/mceliece6688128/aes256ctr_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/aes256ctr.c
+vulnerable/mceliece6688128/aes256ctr_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/aes256ctr.h
+vulnerable/mceliece6688128/aes256ctr_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/aes256ctr.c
+vulnerable/mceliece6688128/aes256ctr_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/aes256ctr.h
+vulnerable/mceliece6688128/aes256ctr_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/aes256ctr.c
+vulnerable/mceliece6688128/aes256ctr_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/aes256ctr.h
+vulnerable/mceliece6688128/aes256ctr_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/aes256ctr.c
+vulnerable/mceliece6688128/aes256ctr_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/aes256ctr.h
+vulnerable/mceliece6688128/api_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/api.h
+vulnerable/mceliece6688128/api_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/api.h
+vulnerable/mceliece6688128/api_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/api.h
+vulnerable/mceliece6688128/api_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/api.h
+vulnerable/mceliece6688128/benes_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/benes.c
+vulnerable/mceliece6688128/benes_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/benes.h
+vulnerable/mceliece6688128/benes_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/benes.c
+vulnerable/mceliece6688128/benes_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/benes.h
+vulnerable/mceliece6688128/benes_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/benes.c
+vulnerable/mceliece6688128/benes_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/benes.h
+vulnerable/mceliece6688128/benes_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/benes.c
+vulnerable/mceliece6688128/benes_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/benes.h
+vulnerable/mceliece6688128/bm_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/bm.c
+vulnerable/mceliece6688128/bm_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/bm.h
+vulnerable/mceliece6688128/bm_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/bm.c
+vulnerable/mceliece6688128/bm_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/bm.h
+vulnerable/mceliece6688128/bm_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/bm.c
+vulnerable/mceliece6688128/bm_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/bm.h
+vulnerable/mceliece6688128/bm_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/bm.c
+vulnerable/mceliece6688128/bm_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/bm.h
+vulnerable/mceliece6688128/controlbits_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/controlbits.c
+vulnerable/mceliece6688128/controlbits_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/controlbits.h
+vulnerable/mceliece6688128/controlbits_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/controlbits.c
+vulnerable/mceliece6688128/controlbits_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/controlbits.h
+vulnerable/mceliece6688128/controlbits_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/controlbits.c
+vulnerable/mceliece6688128/controlbits_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/controlbits.h
+vulnerable/mceliece6688128/controlbits_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/controlbits.c
+vulnerable/mceliece6688128/controlbits_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/controlbits.h
+vulnerable/mceliece6688128/crypto_hash_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_hash.h
+vulnerable/mceliece6688128/crypto_hash_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_hash.h
+vulnerable/mceliece6688128/crypto_hash_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_hash.h
+vulnerable/mceliece6688128/crypto_hash_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_hash.h
+vulnerable/mceliece6688128/crypto_int16_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_int16.c
+vulnerable/mceliece6688128/crypto_int16_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_int16.h
+vulnerable/mceliece6688128/crypto_int16_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_int16.c
+vulnerable/mceliece6688128/crypto_int16_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_int16.h
+vulnerable/mceliece6688128/crypto_int16_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_int16.c
+vulnerable/mceliece6688128/crypto_int16_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_int16.h
+vulnerable/mceliece6688128/crypto_int16_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_int16.c
+vulnerable/mceliece6688128/crypto_int16_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_int16.h
+vulnerable/mceliece6688128/crypto_int32_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_int32.c
+vulnerable/mceliece6688128/crypto_int32_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_int32.h
+vulnerable/mceliece6688128/crypto_int32_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_int32.c
+vulnerable/mceliece6688128/crypto_int32_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_int32.h
+vulnerable/mceliece6688128/crypto_int32_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_int32.c
+vulnerable/mceliece6688128/crypto_int32_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_int32.h
+vulnerable/mceliece6688128/crypto_int32_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_int32.c
+vulnerable/mceliece6688128/crypto_int32_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_int32.h
+vulnerable/mceliece6688128/crypto_kem_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_kem.h
+vulnerable/mceliece6688128/crypto_kem_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_kem.h
+vulnerable/mceliece6688128/crypto_kem_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_kem.h
+vulnerable/mceliece6688128/crypto_kem_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_kem.h
+vulnerable/mceliece6688128/crypto_uint16_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint16.c
+vulnerable/mceliece6688128/crypto_uint16_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint16.h
+vulnerable/mceliece6688128/crypto_uint16_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint16.c
+vulnerable/mceliece6688128/crypto_uint16_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint16.h
+vulnerable/mceliece6688128/crypto_uint16_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint16.c
+vulnerable/mceliece6688128/crypto_uint16_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint16.h
+vulnerable/mceliece6688128/crypto_uint16_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint16.c
+vulnerable/mceliece6688128/crypto_uint16_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint16.h
+vulnerable/mceliece6688128/crypto_uint32_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint32.c
+vulnerable/mceliece6688128/crypto_uint32_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint32.h
+vulnerable/mceliece6688128/crypto_uint32_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint32.c
+vulnerable/mceliece6688128/crypto_uint32_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint32.h
+vulnerable/mceliece6688128/crypto_uint32_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint32.c
+vulnerable/mceliece6688128/crypto_uint32_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint32.h
+vulnerable/mceliece6688128/crypto_uint32_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint32.c
+vulnerable/mceliece6688128/crypto_uint32_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint32.h
+vulnerable/mceliece6688128/crypto_uint64_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint64.c
+vulnerable/mceliece6688128/crypto_uint64_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/crypto_uint64.h
+vulnerable/mceliece6688128/crypto_uint64_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint64.c
+vulnerable/mceliece6688128/crypto_uint64_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/crypto_uint64.h
+vulnerable/mceliece6688128/crypto_uint64_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint64.c
+vulnerable/mceliece6688128/crypto_uint64_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/crypto_uint64.h
+vulnerable/mceliece6688128/crypto_uint64_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint64.c
+vulnerable/mceliece6688128/crypto_uint64_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/crypto_uint64.h
+vulnerable/mceliece6688128/decrypt_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/decrypt.c
+vulnerable/mceliece6688128/decrypt_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/decrypt.h
+vulnerable/mceliece6688128/decrypt_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/decrypt.c
+vulnerable/mceliece6688128/decrypt_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/decrypt.h
+vulnerable/mceliece6688128/decrypt_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/decrypt.c
+vulnerable/mceliece6688128/decrypt_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/decrypt.h
+vulnerable/mceliece6688128/decrypt_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/decrypt.c
+vulnerable/mceliece6688128/decrypt_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/decrypt.h
+vulnerable/mceliece6688128/encrypt_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/encrypt.c
+vulnerable/mceliece6688128/encrypt_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/encrypt.h
+vulnerable/mceliece6688128/encrypt_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/encrypt.c
+vulnerable/mceliece6688128/encrypt_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/encrypt.h
+vulnerable/mceliece6688128/encrypt_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/encrypt.c
+vulnerable/mceliece6688128/encrypt_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/encrypt.h
+vulnerable/mceliece6688128/encrypt_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/encrypt.c
+vulnerable/mceliece6688128/encrypt_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/encrypt.h
+vulnerable/mceliece6688128/gf_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/gf.c
+vulnerable/mceliece6688128/gf_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/gf.h
+vulnerable/mceliece6688128/gf_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/gf.c
+vulnerable/mceliece6688128/gf_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/gf.h
+vulnerable/mceliece6688128/gf_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/gf.c
+vulnerable/mceliece6688128/gf_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/gf.h
+vulnerable/mceliece6688128/gf_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/gf.c
+vulnerable/mceliece6688128/gf_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/gf.h
+vulnerable/mceliece6688128/int32_sort_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/int32_sort.h
+vulnerable/mceliece6688128/int32_sort_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/int32_sort.h
+vulnerable/mceliece6688128/int32_sort_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/int32_sort.h
+vulnerable/mceliece6688128/int32_sort_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/int32_sort.h
+vulnerable/mceliece6688128/namespace_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/namespace.h
+vulnerable/mceliece6688128/namespace_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/namespace.h
+vulnerable/mceliece6688128/namespace_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/namespace.h
+vulnerable/mceliece6688128/namespace_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/namespace.h
+vulnerable/mceliece6688128/operations_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/operations.c
+vulnerable/mceliece6688128/operations_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/operations.h
+vulnerable/mceliece6688128/operations_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/operations.c
+vulnerable/mceliece6688128/operations_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/operations.h
+vulnerable/mceliece6688128/operations_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/operations.c
+vulnerable/mceliece6688128/operations_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/operations.h
+vulnerable/mceliece6688128/operations_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/operations.c
+vulnerable/mceliece6688128/operations_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/operations.h
+vulnerable/mceliece6688128/params_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/params.h
+vulnerable/mceliece6688128/params_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/params.h
+vulnerable/mceliece6688128/params_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/params.h
+vulnerable/mceliece6688128/params_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/params.h
+vulnerable/mceliece6688128/pk_gen_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/pk_gen.c
+vulnerable/mceliece6688128/pk_gen_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/pk_gen.h
+vulnerable/mceliece6688128/pk_gen_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/pk_gen.c
+vulnerable/mceliece6688128/pk_gen_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/pk_gen.h
+vulnerable/mceliece6688128/pk_gen_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/pk_gen.c
+vulnerable/mceliece6688128/pk_gen_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/pk_gen.h
+vulnerable/mceliece6688128/pk_gen_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/pk_gen.c
+vulnerable/mceliece6688128/pk_gen_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/pk_gen.h
+vulnerable/mceliece6688128/root_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/root.c
+vulnerable/mceliece6688128/root_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/root.h
+vulnerable/mceliece6688128/root_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/root.c
+vulnerable/mceliece6688128/root_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/root.h
+vulnerable/mceliece6688128/root_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/root.c
+vulnerable/mceliece6688128/root_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/root.h
+vulnerable/mceliece6688128/root_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/root.c
+vulnerable/mceliece6688128/root_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/root.h
+vulnerable/mceliece6688128/sk_gen_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/sk_gen.c
+vulnerable/mceliece6688128/sk_gen_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/sk_gen.h
+vulnerable/mceliece6688128/sk_gen_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/sk_gen.c
+vulnerable/mceliece6688128/sk_gen_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/sk_gen.h
+vulnerable/mceliece6688128/sk_gen_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/sk_gen.c
+vulnerable/mceliece6688128/sk_gen_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/sk_gen.h
+vulnerable/mceliece6688128/sk_gen_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/sk_gen.c
+vulnerable/mceliece6688128/sk_gen_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/sk_gen.h
+vulnerable/mceliece6688128/synd_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/synd.c
+vulnerable/mceliece6688128/synd_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/synd.h
+vulnerable/mceliece6688128/synd_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/synd.c
+vulnerable/mceliece6688128/synd_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/synd.h
+vulnerable/mceliece6688128/synd_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/synd.c
+vulnerable/mceliece6688128/synd_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/synd.h
+vulnerable/mceliece6688128/synd_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/synd.c
+vulnerable/mceliece6688128/synd_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/synd.h
+vulnerable/mceliece6688128/transpose_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/transpose.c
+vulnerable/mceliece6688128/transpose_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/transpose.h
+vulnerable/mceliece6688128/transpose_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/transpose.c
+vulnerable/mceliece6688128/transpose_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/transpose.h
+vulnerable/mceliece6688128/transpose_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/transpose.c
+vulnerable/mceliece6688128/transpose_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/transpose.h
+vulnerable/mceliece6688128/transpose_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/transpose.c
+vulnerable/mceliece6688128/transpose_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/transpose.h
+vulnerable/mceliece6688128/uint64_sort_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/uint64_sort.h
+vulnerable/mceliece6688128/uint64_sort_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/uint64_sort.h
+vulnerable/mceliece6688128/uint64_sort_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/uint64_sort.h
+vulnerable/mceliece6688128/uint64_sort_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/uint64_sort.h
+vulnerable/mceliece6688128/util_memory_leak.c,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/util.c
+vulnerable/mceliece6688128/util_memory_leak.h,1,memory_leak,Elevee,Mutation: memory_leak,mutated_from:secure/mceliece6688128/util.h
+vulnerable/mceliece6688128/util_timing_leak.c,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/util.c
+vulnerable/mceliece6688128/util_timing_leak.h,1,timing_leak,Critique,Mutation: timing_leak,mutated_from:secure/mceliece6688128/util.h
+vulnerable/mceliece6688128/util_weak_params.c,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/util.c
+vulnerable/mceliece6688128/util_weak_params.h,1,weak_params,Elevee,Mutation: weak_params,mutated_from:secure/mceliece6688128/util.h
+vulnerable/mceliece6688128/util_weak_prng.c,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/util.c
+vulnerable/mceliece6688128/util_weak_prng.h,1,weak_prng,Critique,Mutation: weak_prng,mutated_from:secure/mceliece6688128/util.h
